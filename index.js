@@ -68,10 +68,6 @@ function writeToFile(fileName, data) {}
 }
 
 
-
-
-//     // save to file (`fs`)
-
 // build out readme as a string
 
 let readMe = 
@@ -97,6 +93,9 @@ let readMe =
 ## ${data.contributing}
 
 ## ${data.questions}`
+
+const filename = `readMe`;
+
 
 
 // TODO: Create a function to initialize app
