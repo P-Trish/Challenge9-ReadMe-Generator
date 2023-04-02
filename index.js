@@ -12,7 +12,7 @@ const questions = [];
     {
     type: 'input',
     name: 'title',
-    message: 'What is the title of your markdown file?',
+    message: 'What is the title of your project?',
     },
     {
     type: 'input',
@@ -82,31 +82,6 @@ function writeToFile(fileName, data) {}
 
 // build out readme as a string
 
-let readMe = 
-
-`## ${data.title}
-
-## ${data.description}
-
-## ${data.tableOfContents} 
-
-## ${data.installation}
-
-## ${data.usage}
-
-## ${data.credits}
-
-## ${data.license}
-
-## ${data.contributing}
-
-## ${data.tests}
-
-## ${data.contributing}
-
-## ${data.questions}`
-
-const filename = `readMe`;
 
 
 
