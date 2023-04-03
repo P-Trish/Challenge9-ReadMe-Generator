@@ -1,4 +1,4 @@
- # TEST [![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](https://opensource.org/licenses/MIT)
+ # TEST [![License](https://img.shields.io/badge/license-MIT-blue.svg)](https://opensource.org/licenses/MIT)
   
   ## Description
   TEST
@@ -34,5 +34,5 @@
   
   ## Questions
 
-  If you have any questions about the repo, open an issue or contact me directly at pkfalberto@gmail.com. You can find more of my work at [P-Trish](https://github.com/P-Trish/).
+  If you have any questions about the repo, open an issue or contact me directly at TEST. You can find more of my work at [TEST](https://github.com/TEST/).
   

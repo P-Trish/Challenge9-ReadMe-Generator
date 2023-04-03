@@ -4,7 +4,7 @@ function renderLicenseBadge(license)  {
   const licenseLink = renderLicenseLink (license);
   switch (license){
     case "MIT License":
-      return `[![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](${licenseLink})`;
+      return `[![License](https://img.shields.io/badge/license-MIT-blue.svg)](${licenseLink})`;
     case "Apache License 2.0":
       return `[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](${licenseLink})`;
     case "BSD License":
@@ -113,3 +113,6 @@ module.exports = generateMarkdown;
 
 // WHEN I click on the links in the Table of Contents
 // THEN I am taken to the corresponding section of the README
+
+
+// LAST STEP: markdown file formatting 
