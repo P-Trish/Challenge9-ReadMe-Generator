@@ -2,13 +2,11 @@
 
 const inquirer = require('inquirer');
 const fs = require('fs');
-const markdownFile = require('generateMarkdown.js');
+const markdownFile = require('./generateMarkdown');
 
 // Create an array of questions for user input
-const questions = [];   
+const questions = [   
     
-    inquirer
-    .prompt([
     {
     type: 'input',
     name: 'title',
@@ -18,12 +16,7 @@ const questions = [];
     type: 'input',
     name: 'description',
       message: 'Provide a short description explaining the what, why, and how of your project.',
-    },
-    {
-    type: 'input',
-    name: 'tableOfContents',
-    message: 'Enter table of contents to make it easy for users to find what they need. ',
-    },
+    },   
     {
     type: 'input',
     name: 'installation',
@@ -52,48 +45,34 @@ const questions = [];
     },
     {
     type: 'input',
-    name: 'questions',
-    message: 'Do you have any questions?',
-    },
-    {
-    type: 'input',
     name: 'gitHub',
     message: 'Please enter your GitHub username ',
     },
     {
-        type: 'input',
-        name: 'email',
-        message: 'Please provide your email address.',
-        }
-
-])
+    type: 'input',
+    name: 'email',
+    message: 'Please provide your email address.',
+    }
+];
       
 
 // TODO: Create a function to write README file
-function writeToFile(fileName, data) {}
-    fs.writeFile(filename.readMe, (err) =>
-    err? console.err (err) : console.log ('README.md Created!')
-)
-
-.then ((data)) => {
-    console.log(data);
+function writeToFile(fileName, data) {
+    fs.writeFile(fileName,data, (err) => {
+    err? console.err (err) : console.log ('outputReadme.md Created!')
+})
 }
 
 
-// build out readme as a string
-
-
-
-
 // TODO: Create a function to initialize app
-function init() {}
-.prompt (questions)
+function init() {
+inquirer.prompt (questions)
 .then ((response) => {
     const generateMarkdown = markdownFile(response);
-    writeToFile (`${response.filename}.md`, generateMarkdown);
+    writeToFile ("outputReadme.md", generateMarkdown);
 })
 .catch ((err) => console.error(err));
-
+}
 
 
 // Function call to initialize app
