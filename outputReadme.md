@@ -1,4 +1,4 @@
- # TEST [![GitHub license](https://img.shields.io/badge/license-MIT License-blue.svg)](https://opensource.org/licenses/MIT)
+ # TEST [![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](https://opensource.org/licenses/MIT)
   
   ## Description
   TEST
