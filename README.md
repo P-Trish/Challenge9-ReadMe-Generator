@@ -22,11 +22,11 @@ To use the Inquirer packagem I ran 'npm i inquirer@8.2.4'.
 ​
 To create a README.md file with this generator, the command 'node index.js' was used in the command line of the project root directory.  Inquirer then guided the users to answer prompted questions pertaining to the README such as project title, a short description of the project, installation steps, usage instructions, license, contributing guidelines, tests for the application, the user's GitHub username, and email address.  
 
-    ![alt text](/assets/images/Terminal.png)
+![alt text](/assets/images/Terminal.png)
 
 If the user chooses a liscense for their project from a list of options, the license badge would appear at the top of the README file next to the title. When the user enters their GitHub username and their email address, both would be added to the Questions section of the README with instructions on how to reach them with any questions.  
 
-    ![alt text](/assets/images/OutputReadMe.png)
+![alt text](/assets/images/OutputReadMe.png)
 
 A table of contents section also functions to make it easy for users to find what they need as they can click the links and are taken directly to that section of the README file.  
 
