@@ -7,12 +7,12 @@ TEST
 - [Installation](#installation)
 - [Usage](#usage)
 - [License](#license)
-- [Contributing](contributing)
+- [Contributing](#contributing)
 - [Tests](#tests)
 - [Questions](#questions)
 
 ## Installation
-TEsT
+TEST
 
 ## Usage
 TEST
@@ -29,11 +29,8 @@ TEST
 ## Tests
 TEST
 
-## Contributing
-TEST
-
 
 ## Questions
 
-If you have any questions about the repo, open an issue or contact me directly at pkfalberto@gmail.com. You can find more of my work at [P-Trish](https://github.com/P-Trish/).
+If you have any questions about the repo, open an issue or contact me directly at TEST. You can find more of my work at [TEST](https://github.com/TEST/).
   
