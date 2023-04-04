@@ -28,6 +28,8 @@ If the user chooses a liscense for their project from a list of options, the lic
 
     ![alt text](/assets/images/OutputReadMe.png)
 
+A table of contents section also functions to make it easy for users to find what they need as they can click the links and are taken directly to that section of the README file.  
+
 
 Please refer to this link to preview a demo of the application: 
 https://drive.google.com/file/d/12m86asuZxzuFCZO2P68kgSR8_9n_Rb7R/view
