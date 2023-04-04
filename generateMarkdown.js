@@ -62,9 +62,6 @@ ${data.installation}
 ## Usage
 ${data.usage}
 
-## Credits
-${data.credits}
-
 ## License
 ${renderLicenseSection(data.license)}
 

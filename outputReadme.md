@@ -17,9 +17,6 @@ TEST
 ## Usage
 TEST
 
-## Credits
-undefined
-
 ## License
 https://opensource.org/licenses/MIT
 
